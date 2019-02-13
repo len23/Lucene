@@ -23,7 +23,7 @@ import com.sun.org.apache.bcel.internal.generic.AALOAD;
 
 import java.io.IOException;
 
-import org.apache.catalina.ant.ListTask;
+//import org.apache.catalina.ant.ListTask;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryParser.ParseException;
@@ -42,9 +42,9 @@ public class ArticuloServicio {
 	private ArticuloDAO artDao;	
 	private BusquedaDAO busquedaDAO;
 	//private  List<Articulo> lista = new ArrayList<>();
-	private String indexDir = "/home/lenin/Escritorio/2018A/Tesis/Recomendador/WorkSpace/Lucene/Indexados";
-	private String indexDirACM = "/home/lenin/Escritorio/2018A/Tesis/Recomendador/WorkSpace/Lucene/IndexadosACM";
-	private String indexDirDBLP = "/home/lenin/Escritorio/2018A/Tesis/Recomendador/WorkSpace/Lucene/IndexadosDBLP";
+	private String indexDir = "C:\\Users\\user\\Documents\\Workspace\\Lucene\\Indexados";
+	private String indexDirACM = "C:\\Users\\user\\Documents\\Workspace\\Lucene\\IndexadosACM";
+	private String indexDirDBLP = "C:\\Users\\user\\Documents\\Workspace\\Lucene\\IndexadosDBLP";
 	private  LuceneTester tester;
 
 	

@@ -23,7 +23,7 @@ import com.sun.org.apache.bcel.internal.generic.AALOAD;
 
 import java.io.IOException;
 
-import org.apache.catalina.ant.ListTask;
+//import org.apache.catalina.ant.ListTask;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryParser.ParseException;

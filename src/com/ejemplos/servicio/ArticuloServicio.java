@@ -42,9 +42,9 @@ public class ArticuloServicio {
 	private ArticuloDAO artDao;	
 	private BusquedaDAO busquedaDAO;
 	//private  List<Articulo> lista = new ArrayList<>();
-	private String indexDir = "/Lucene/Indexados";
-	private String indexDirACM = "/Lucene/IndexadosACM";
-	private String indexDirDBLP = "/Lucene/IndexadosDBLP";
+	private String indexDir = "/home/montalvolenin2013a/Documentos/Lucene/Indexados";
+	private String indexDirACM = "/home/montalvolenin2013a/Documentos/Lucene/IndexadosACM";
+	private String indexDirDBLP = "/home/montalvolenin2013a/Documentos/Lucene/IndexadosDBLP";
 	private  LuceneTester tester;
 
 	
